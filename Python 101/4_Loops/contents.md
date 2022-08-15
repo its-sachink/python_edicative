@@ -63,7 +63,9 @@ for number in range(10):
 # 4
 # 6
 # 8
-
-
-
 ```
+
+
+
+#### The 'while' loop
+
