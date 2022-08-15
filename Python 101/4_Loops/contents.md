@@ -69,3 +69,43 @@ for number in range(10):
 
 #### The 'while' loop
 
+```python
+
+i = 0
+while i < 10:
+    print(i)
+    if i == 5:
+        break
+    i += 1
+
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+```
+
+The break builtin is known as a flow control tool. There is another one called **continue** that is used to basically skip an iteration or continue with the next iteration.
+
+
+```python
+
+i = 0
+
+while i < 10:
+    if i == 3:
+        i += 1
+        continue
+
+    print(i)
+
+    if i == 5:
+        break
+    i += 1
+
+```
+
+Basically we added a second conditional that checks if i equals 3. If it does, we increment the variable and continue with the next loop, which effectively skips printing the value 3 to the screen. As before, when we reach a value of 5, we break out of the loop.
+
+
